@@ -7,5 +7,15 @@
     },
     "filters": {
         "all": "All"
+    },
+    "skills": {
+        "title": "Skills and technologies",
+        "tools": "Tools"
+    },
+    "about": {
+        "softFast": "Passionate about learning, also a very fast learner",
+        "softTeam": "Experienced in working in cross-disciplinary teams",
+        "softComm": "My background in audiovisual production and creative coding lets communicate easily with all professional roles within a team, be it a technician, a designer or an artist",
+        "softLang": "Italian native speaker, fluent in English, currently learning Catalan for no specific reason other than it' fun"
     }
 }

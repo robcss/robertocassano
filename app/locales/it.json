@@ -7,5 +7,15 @@
     },
     "filters": {
         "all": "Tutti"
+    },
+    "skills": {
+        "title": "Tecnologie e competenze",
+        "tools": "Strumenti"
+    },
+    "about": {
+        "softFast": "Adoro imparare nuove cose e sono in grado di farlo rapidamente",
+        "softTeam": "Ho esperienza di lavoro in team multidisciplinari",
+        "softComm": "Grazie al mio background nella produzione audiovisiva so comunicare efficaciemente con le varie figure professionali che compongono un team, dalla figura tecnica, al designer o all'artista",
+        "softLang": "Madrelingua italiano, fluente in Inglese scritto e parlato, al momento sto imparando il Catalano per nessuna ragione specifica (a parte che è divertente!)"
     }
 }
