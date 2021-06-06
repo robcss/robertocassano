@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Thanks for downloading this template!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "trans": "static-i18n -l en -i en -i it app -o ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robcss/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robcss/portfolio/issues"
+  },
+  "homepage": "https://github.com/robcss/portfolio#readme"
+}
