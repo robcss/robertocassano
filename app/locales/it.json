@@ -1,5 +1,11 @@
 {
     "description": {
         "key": "Descrizione"
+    },
+    "contacts": {
+        "key": "Puoi trovarmi qui"
+    },
+    "filters": {
+        "all": "Tutti"
     }
 }

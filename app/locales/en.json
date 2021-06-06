@@ -1,5 +1,11 @@
 {
     "description": {
         "key": "Description"
+    },
+    "contacts": {
+        "key": "Places you can find me"
+    },
+    "filters": {
+        "all": "All"
     }
 }
