@@ -17,5 +17,10 @@
         "softTeam": "Ho esperienza di lavoro in team multidisciplinari",
         "softComm": "Grazie al mio background nella produzione audiovisiva so comunicare efficaciemente con le varie figure professionali che compongono un team, dalla figura tecnica, al designer o all'artista",
         "softLang": "Madrelingua italiano, fluente in Inglese scritto e parlato, al momento sto imparando il Catalano per nessuna ragione specifica (a parte che è divertente!)"
+    },
+    "mrwolfa": {
+        "intr1": "A Telegram Bot made in Node.js that can answer questions asked by users, covering many topics such as mathematics, physics, history, culture, nutrition and many more.",
+        "intr2": "Answer computing leverages the power of Wolfram|Alpha computational knowledge engine API.",
+        "intr3": "It can provide answers either by text or vocal message thanks to Google Cloud Text-to-Speech API."
     }
 }
