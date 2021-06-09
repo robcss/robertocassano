@@ -19,8 +19,24 @@
         "softLang": "Madrelingua italiano, fluente in Inglese scritto e parlato, al momento sto imparando il Catalano per nessuna ragione specifica (a parte che è divertente!)"
     },
     "mrwolfa": {
-        "intr1": "A Telegram Bot made in Node.js that can answer questions asked by users, covering many topics such as mathematics, physics, history, culture, nutrition and many more.",
-        "intr2": "Answer computing leverages the power of Wolfram|Alpha computational knowledge engine API.",
-        "intr3": "It can provide answers either by text or vocal message thanks to Google Cloud Text-to-Speech API."
+        "intr1": "Un Bot Telegram sviluppato in <strong>Node.js</strong> in grado di rispondere a domande riguardanti diversi ambiti, come matematica, fisica, storia, cultura, nutrizione e tanti altri.",
+        "intr2": "Il calcolo delle risposte sfrutta la potenza del motore computazionale di conoscenza <strong>Wolfram|Alpha</strong> e della sua API.",
+        "intr3": "Le risposte generate possono essere o messaggi di testo o anche messaggi vocali sintetizzati grazie alla <strong>Google Cloud Text-to-Speech API</strong>.",
+        "capt1": "Funziona in chat privata",
+        "capt2": "Risponde con messaggi vocali",
+        "capt3": "Filtra le domande opportunamente",
+        "capt4": "Funziona come inline-bot",
+        "capt5": "Calcoli semplici con Math.js",
+        "capt6": "Wolfram|Alpha per tutto il resto",
+        "tech": "Tecnologie",
+        "try": "Prova MrWolfa",
+        "what": "Cosa ho fatto",
+        "point1": "Ho utilizzato il framework <strong>Telegraf.js</strong> per comunicare con la Telegram Bot API e sviluppare un bot con un set di comandi personalizzati, funzionante sia in chat privata che come inline-bot",
+        "point2": "Ho usato la libreria <strong>wolfram-alpha-api</strong> per inviare domande ed ottenere risposte da Wolfram|Alpha",
+        "point3": "Ho utilizzato il client Node.js della <strong>Google Cloud Text-to-Speech API</strong> per sintetizzare le risposte ottenute da Wolfram|Alpha e poterle inviare come messagi vocali",
+        "point4": "Ho utilizzato il modulo <strong>languagedetect</strong> per implementare un filtro che individua le domande in inglese scorretto, al fine di non sprecare chiamate api",
+        "point5": "Ho usato <strong>Math.js</strong> per gestire le domande contententi matematica elementare, al fine di non sprecare chiamate api",
+        "point6": "Ho scelto un approccio <strong>Object Oriented</strong>, nel dettaglio ho utilizzato una combinazione del <strong>Template method pattern</strong> e dello <strong>Strategy pattern</strong> per implementare l'albero decisionale con cui il bot risponde alle domande",
+        "point7": "Ho utilizzato Git ed una <strong>Heroku Pipeline</strong> per implementare un semplice workflow per la continuous delivery e la gestione delle release del bot"
     }
 }

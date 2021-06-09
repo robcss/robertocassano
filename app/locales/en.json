@@ -21,6 +21,22 @@
     "mrwolfa": {
         "intr1": "A Telegram Bot made in <strong>Node.js</strong> that can answer questions asked by users, covering many topics such as mathematics, physics, history, culture, nutrition and many more.",
         "intr2": "Answer computing leverages the power of <strong>Wolfram|Alpha</strong> computational knowledge engine API.",
-        "intr3": "It can provide answers either by text or vocal message thanks to <strong>Google Cloud Text-to-Speech API</strong>."
+        "intr3": "It can provide answers either by text or vocal message thanks to <strong>Google Cloud Text-to-Speech API</strong>.",
+        "capt1": "Works in private chat",
+        "capt2": "Can answer with a vocal message",
+        "capt3": "Filters non-english questions",
+        "capt4": "Works as an inline-bot",
+        "capt5": "Simple math handled by Math.js",
+        "capt6": "Wolfram|Alpha for longer ones",
+        "tech": "Technologies",
+        "try": "Try MrWolfa",
+        "what": "What I did",
+        "point1": "Used <strong>Telegraf.js</strong> framework to interact with the Telegram Bot API and develop a bot with a custom command system that works both in private chats and as an inline-bot",
+        "point2": "Used the <strong>wolfram-alpha-api</strong> library to fetch questions and get answers from Wolfram|Alpha",
+        "point3": "Used the Node.js client for <strong>Google Cloud Text-to-Speech API</strong> to synthesize answers from Wolfram|Alpha and send them as vocal messages",
+        "point4": "Used <strong>languagedetect</strong> module to implement a language filter that detects non-english questions and avoids wasting api calls",
+        "point5": "Used <strong>Math.js</strong> to handle simple math questions and avoid wasting api calls",
+        "point6": "Used <strong>Object Oriented programming</strong>, specifically a combination of the <strong>Template method pattern</strong> and the <strong>Strategy pattern</strong> to implement the decision tree the bot uses to answer questions",
+        "point7": "Used Git and <strong>Heroku Pipelines</strong> to implement a simple continuous delivery workflow and handle bot releases"
     }
 }
