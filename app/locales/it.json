@@ -18,6 +18,9 @@
         "softComm": "Grazie al mio background nella produzione audiovisiva so comunicare efficaciemente con le varie figure professionali che compongono un team, dalla figura tecnica, al designer o all'artista",
         "softLang": "Madrelingua italiano, fluente in Inglese scritto e parlato, al momento sto imparando il Catalano per nessuna ragione specifica (a parte che è divertente!)"
     },
+    "technologies": {
+        "key": "Tecnologie"
+    },
     "mrwolfa": {
         "intr1": "Un Bot Telegram sviluppato in <strong>Node.js</strong> in grado di rispondere a domande riguardanti diversi ambiti, come matematica, fisica, storia, cultura, nutrizione e tanti altri.",
         "intr2": "Il calcolo delle risposte sfrutta la potenza del motore computazionale di conoscenza <strong>Wolfram|Alpha</strong> e della sua API.",
