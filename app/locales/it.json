@@ -21,6 +21,9 @@
     "technologies": {
         "key": "Tecnologie"
     },
+    "what": {
+        "key": "Cosa ho fatto"
+    },
     "mrwolfa": {
         "intr1": "Un Bot Telegram sviluppato in <strong>Node.js</strong> in grado di rispondere a domande riguardanti diversi ambiti, come matematica, fisica, storia, cultura, nutrizione e tanti altri.",
         "intr2": "Il calcolo delle risposte sfrutta la potenza del motore computazionale di conoscenza <strong>Wolfram|Alpha</strong> e della sua API.",
@@ -31,9 +34,7 @@
         "capt4": "Funziona come inline-bot",
         "capt5": "Calcoli semplici con Math.js",
         "capt6": "Wolfram|Alpha per tutto il resto",
-        "tech": "Tecnologie",
         "try": "Prova MrWolfa",
-        "what": "Cosa ho fatto",
         "point1": "Ho utilizzato il framework <strong>Telegraf.js</strong> per comunicare con la Telegram Bot API e sviluppare un bot con un set di comandi personalizzati, funzionante sia in chat privata che come inline-bot",
         "point2": "Ho usato la libreria <strong>wolfram-alpha-api</strong> per inviare domande ed ottenere risposte da Wolfram|Alpha",
         "point3": "Ho utilizzato il client Node.js della <strong>Google Cloud Text-to-Speech API</strong> per sintetizzare le risposte ottenute da Wolfram|Alpha e poterle inviare come messagi vocali",
@@ -41,5 +42,28 @@
         "point5": "Ho usato <strong>Math.js</strong> per gestire le domande contententi matematica elementare, al fine di non sprecare chiamate api",
         "point6": "Ho scelto un approccio <strong>Object Oriented</strong>, nel dettaglio ho utilizzato una combinazione del <strong>Template method pattern</strong> e dello <strong>Strategy pattern</strong> per implementare l'albero decisionale con cui il bot risponde alle domande",
         "point7": "Ho utilizzato Git ed una <strong>Heroku Pipeline</strong> per implementare un semplice workflow per la continuous delivery e la gestione delle release del bot"
+    },
+    "blup": {
+        "intr1": "Una web app per trovare fontanelle d'acqua pubbliche.",
+        "intr2": "Una piattaforma comunitaria in cui gli utenti possono contribuire trovando e registrando nuove fontane, oppure verificando la presenza di quelle già segnalate o riportando problemi e malfunzionamenti.",
+        "intr3": "Realizzato con <strong>Node.js</strong>, <strong>Express.js</strong> e <strong>MongoDB (Mongoose.js)</strong> e <strong>EJS</strong>, Blup nasce come il mio progetto finale per il corso <a href='https://www.udemy.com/share/101W9CBEcacllXRXw=/'>'The Web Developer Bootcamp 2021'</a> ed è attualmente un work in progress per una web app completa e pronta per l'uso in produzione.",
+        "intr4": "La versione attualmente rilasciata è un prototipo con le core feature funzionanti ed un database popolato da fake data.",
+        "try": "Prova Blup",
+        "point1": "Ho progettato l'applicazione seguendo il pattern <strong>Model–View–Controller</strong> ",
+        "point2": "Ho implementato un <strong>Service layer</strong> al fine di disaccoppiare la business logic dai controller Express.js",
+        "point3": "Ho implementato un <strong>sistema Publish/Subscribe</strong> tramite gli eventi Node.js al fine di gestire le operazioni in background",
+        "point4": "Ho usato <strong>Express.js</strong> per la creazione del server e la definizione di <strong>rotte RESTful</strong>",
+        "point5": "Ho utilizzato <strong>MongoDB</strong> con <strong>Mongoose.js</strong> per la modellazione dei dati e la gestione delle <strong>operazioni CRUD</strong>",
+        "point16": "Ho utilizzato il linguaggio di templating <strong>EJS</strong> per generare le view e sfruttare il server-side rendering",
+        "point6": "Ho utilizzato <strong>JOI</strong> per la <strong>validazione dati</strong> nelle operazioni CRUD",
+        "point7": "Ho usato i middleware <strong>express-session</strong> e <strong>Passport</strong> per gestire <strong>autenticazione e autorizzazione</strong>",
+        "point8": "Ho utillizzato i middleware <strong>multer</strong> e <strong>cloudinary</strong> per gestire <strong>l'upload dei file</strong>",
+        "point9": "Ho fatto uso del modulo <strong>sanitize-html</strong> e dei middleware <strong>express-mongo-sanitize</strong> ed <strong>Helmet</strong> per garantire la <strong>sicurezza</strong> base dell'app",
+        "point10": "Ho sviluppato una interfaccia <strong>mobile-first</strong> e <strong>totalmente responsive</strong> con <strong>Bulma</strong>. Ho scelto un framework css puro (senza Javascript incluso) come Bulma perché non ritenevo di aver apprfondontio abbastanza la manipolazione del DOM durante il corso, ho colto quindi l'occasione per fare più pratica con JavaScript per il frontend",
+        "point11": "Ho scritto numerosi <strong>script per la navigazione e l'interazione con l'interfaccia</strong>: cambio tab, chiusura notifiche, apertura e chiusura modali, comportamento della navbar",
+        "point12": "<strong>Ho scritto da zero delle funzioni per la validazione client-side dei form</strong>, utilizzando le classi ES6 ed il Template Method pattern",
+        "point13": "Ho implementato delle <strong>operazioni AJAX</strong> per aggiornare dinamicamente il contentuto della pagina quando si inseriscono od eliminano verifiche, commenti e segnalazioni",
+        "point14": "Ho usato <strong>Mapbox GL JS</strong> per mostrare le fontane registrate su una mappa a cluster",
+        "point15": "Ho utilizzato <strong>Glide.js</strong> per implementare un semplice carousel per le immagini"
     }
 }

@@ -83,13 +83,10 @@
         <div class="row mb-4 align-items-center">
           <div class="col-md-6" data-aos="fade-up">
             <h2>Blup</h2>
-            <p>A web app to find public drinking fountains.</p>
-            <p>A community-driven platform where users can contribute by
-              spotting and adding new fountains,
-              verifying existing ones, reporting problems or malfunctions.</p>
-            <p>Made with <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>MongoDB (Mongoose.js)</strong>,
-              Blup started as my heavily customized final project for the <a href="https://www.udemy.com/share/101W9CBEcacllXRXw=/">"The Web Developer Bootcamp 2021"</a> course
-              and is currently a work in progress for a full-fledged, production-ready web app.</p>
+            <p>Una web app per trovare fontanelle d'acqua pubbliche.</p>
+            <p>Una piattaforma comunitaria in cui gli utenti possono contribuire trovando e registrando nuove fontane, oppure verificando la presenza di quelle già segnalate o riportando problemi e malfunzionamenti.</p>
+            <p>Realizzato con <strong>Node.js</strong>, <strong>Express.js</strong> e <strong>MongoDB (Mongoose.js)</strong> e <strong>EJS</strong>, Blup nasce come il mio progetto finale per il corso <a href='https://www.udemy.com/share/101W9CBEcacllXRXw=/'>'The Web Developer Bootcamp 2021'</a> ed è attualmente un work in progress per una web app completa e pronta per l'uso in produzione.</p>
+            <p>La versione attualmente rilasciata è un prototipo con le core feature funzionanti ed un database popolato da fake data.</p>
             <a href="#" class="readmore">Source code</a>
             <a href="https://blup-stg.herokuapp.com/" class="readmore">Website</a>
           </div>
@@ -102,7 +99,7 @@
             <div class="col-md-10" data-aos="fade-up">
               <figure class="figure text-center">
                 <img src="../../assets/img/blup/mapFull.PNG" alt="Image" class="img-fluid figure-img rounded">
-                <figcaption class="figure-caption">Main fountains map</figcaption>
+                <figcaption class="figure-caption">Main fountains map (fake data)</figcaption>
               </figure>
             </div>
             <div class="col-md-2 ml-auto" data-aos="fade-up" data-aos-delay="100">
@@ -115,7 +112,7 @@
                   <li><a href="https://expressjs.com/">Express.js</a></li>
                   <li><a href="https://mongoosejs.com/">Mongoose.js</a></li>
                   <li><a href="https://www.mongodb.com/">MongoDB</a></li>
-                  <li><a href="https://ejs.co//">EJS</a></li>
+                  <li><a href="https://ejs.co/">EJS</a></li>
                   <li><a href="https://www.npmjs.com/package/joi">Joi</a></li>
                   <li><a href="https://www.npmjs.com/package/multer">Multer</a></li>
                   <li><a href="https://www.npmjs.com/package/cloudinary">Cloudinary</a></li>
@@ -126,18 +123,48 @@
                 <ul class="list-unstyled list-line mb-5">
                   <li><a href="#">HTML5</a></li>
                   <li><a href="#">CSS3</a></li>
+                  <li><a href="#">JavaScript (ES5/ES6)</a></li>
                   <li><a href="#">AJAX</a></li>
                   <li><a href="https://bulma.io/">Bulma</a></li>
                   <li><a href="https://www.mapbox.com/mapbox-gljs">Mapbox GL JS</a></li>
                   <li><a href="https://glidejs.com/">Glide.js</a></li>
                 </ul>
 
-                <p><a href="https://blup-stg.herokuapp.com/" class="readmore">Visit Website</a></p>
+                <p><a href="https://blup-stg.herokuapp.com/" class="readmore">Prova Blup</a></p>
               </div>
             </div>
           </div>
         </div>
     </div></section>
+
+    <div class="container">
+      <h4 class="mb-3">Cosa ho fatto</h4>
+      <h5>Software architecture</h5>
+      <ul class="list-unstyled list-line mb-4">
+        <li>Ho progettato l'applicazione seguendo il pattern <strong>Model–View–Controller</strong> </li>
+        <li>Ho implementato un <strong>Service layer</strong> al fine di disaccoppiare la business logic dai controller Express.js</li>
+        <li>Ho implementato un <strong>sistema Publish/Subscribe</strong> tramite gli eventi Node.js al fine di gestire le operazioni in background</li>
+      </ul>
+      <h5>Backend</h5>
+      <ul class="list-unstyled list-line mb-4">
+        <li>Ho usato <strong>Express.js</strong> per la creazione del server e la definizione di <strong>rotte RESTful</strong></li>
+        <li>Ho utilizzato <strong>MongoDB</strong> con <strong>Mongoose.js</strong> per la modellazione dei dati e la gestione delle <strong>operazioni CRUD</strong></li>
+        <li>Ho utilizzato il linguaggio di templating <strong>EJS</strong> per generare le view e sfruttare il server-side rendering</li>
+        <li>Ho utilizzato <strong>JOI</strong> per la <strong>validazione dati</strong> nelle operazioni CRUD</li>
+        <li>Ho usato i middleware <strong>express-session</strong> e <strong>Passport</strong> per gestire <strong>autenticazione e autorizzazione</strong></li>
+        <li>Ho utillizzato i middleware <strong>multer</strong> e <strong>cloudinary</strong> per gestire <strong>l'upload dei file</strong></li>
+        <li>Ho fatto uso del modulo <strong>sanitize-html</strong> e dei middleware <strong>express-mongo-sanitize</strong> ed <strong>Helmet</strong> per garantire la <strong>sicurezza</strong> base dell'app</li>
+      </ul>
+      <h5>Frontend</h5>
+      <ul class="list-unstyled list-line mb-5">
+        <li>Ho sviluppato una interfaccia <strong>mobile-first</strong> e <strong>totalmente responsive</strong> con <strong>Bulma</strong>. Ho scelto un framework css puro (senza Javascript incluso) come Bulma perché non ritenevo di aver apprfondontio abbastanza la manipolazione del DOM durante il corso, ho colto quindi l'occasione per fare più pratica con JavaScript per il frontend</li>
+        <li>Ho scritto numerosi <strong>script per la navigazione e l'interazione con l'interfaccia</strong>: cambio tab, chiusura notifiche, apertura e chiusura modali, comportamento della navbar</li>
+        <li><strong>Ho scritto da zero delle funzioni per la validazione client-side dei form</strong>, utilizzando le classi ES6 ed il Template Method pattern</li>
+        <li>Ho implementato delle <strong>operazioni AJAX</strong> per aggiornare dinamicamente il contentuto della pagina quando si inseriscono od eliminano verifiche, commenti e segnalazioni</li>
+        <li>Ho usato <strong>Mapbox GL JS</strong> per mostrare le fontane registrate su una mappa a cluster</li>
+        <li>Ho utilizzato <strong>Glide.js</strong> per implementare un semplice carousel per le immagini</li>
+      </ul>
+    </div>
 
   </main><!-- End #main -->
 
