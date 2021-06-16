@@ -1,16 +1,29 @@
 {
+    "links": {
+        "eng": "",
+        "it": "it/"
+    },
+    "works": {
+        "key": "Works"
+    },
     "description": {
-        "key": "Description"
+        "title": "Hi I'm Roberto, I'm a web developer looking for his first job. <br> I have a background in audiovisual production and creative coding, I'm experienced in working with cross-disciplinary teams. <br> I'm a passionate learner and also a very fast one, everything you can find in this portfolio I taught myself. I hope to hear from you!",
+        "subtitle": "Passionate coder, in love with learning, always focused and determined."
     },
     "contacts": {
-        "key": "Places you can find me"
+        "find": "Places you can find me",
+        "me": "Contact me",
+        "name": "Name",
+        "subject": "Subject",
+        "message": "Message"
     },
     "filters": {
         "all": "All"
     },
     "skills": {
         "title": "Skills and technologies",
-        "tools": "Tools"
+        "tools": "Tools",
+        "skills": "Skills"
     },
     "about": {
         "softFast": "Passionate about learning, also a very fast learner",
