@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Inconsolata", monospace;
+  font-family: "Quicksand", sans-serif;
   color: #0d1e2d;
 }
 
@@ -233,6 +233,13 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   height: 2px;
   background: #000;
 }
+
+.list-line-center  {
+  text-align: left;
+  width: 80%;
+  position:relative;
+  left: 25%;
+  }
 
 .form-control {
   border-radius: 0;

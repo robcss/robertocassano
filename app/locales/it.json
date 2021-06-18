@@ -23,7 +23,8 @@
     "skills": {
         "title": "Tecnologie e competenze",
         "tools": "Strumenti",
-        "skills": "Competenze"
+        "skills": "Competenze",
+        "description": "Ho competenze backend e frontend, familiarità con i moderni tool di sviluppo ed un backround nel creative coding"
     },
     "about": {
         "softFast": "Adoro imparare nuove cose e sono in grado di farlo rapidamente",

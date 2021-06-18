@@ -23,7 +23,8 @@
     "skills": {
         "title": "Skills and technologies",
         "tools": "Tools",
-        "skills": "Skills"
+        "skills": "Skills",
+        "description": "I have backend and frontend skills, familiarity with modern development tools and a backgrund in creative coding"
     },
     "about": {
         "softFast": "Passionate about learning, also a very fast learner",
