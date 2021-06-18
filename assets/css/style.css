@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 /* Contact Form */
-.php-email-form .error-message {
+.email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -284,11 +284,11 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   font-weight: 600;
 }
 
-.php-email-form .error-message br + br {
+.email-form .error-message br + br {
   margin-top: 25px;
 }
 
-.php-email-form .sent-message {
+.email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -297,14 +297,14 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   font-weight: 600;
 }
 
-.php-email-form .loading {
+.email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.php-email-form .loading:before {
+.email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
