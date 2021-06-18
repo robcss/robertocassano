@@ -78,5 +78,16 @@
         "point13": "Ho implementato delle <strong>operazioni AJAX</strong> per aggiornare dinamicamente il contentuto della pagina quando si inseriscono od eliminano verifiche, commenti e segnalazioni",
         "point14": "Ho usato <strong>Mapbox GL JS</strong> per mostrare le fontane registrate su una mappa a cluster",
         "point15": "Ho utilizzato <strong>Glide.js</strong> per implementare un semplice carousel per le immagini"
+    },
+    "habitat": {
+        "intr1": "Habitat è una composizione audiovisiva prodotta dalla Biennale di Venezia e realizzata per il festival Biennale Musica 2020.",
+        "intr2": "Ho lavorato per 6 mesi presso gli studi del CIMM (Centro di Informatica Musicale Multimediale) in qualità di software developer e videoartista, in collaborazione con un compositore ed un sassofonista.",
+        "intr3": "Il mio compito è stato sviluppare un sistema per la generazione real time di video 3D a partire da input audio live. Ho avuto l'opportunità di lavorare con tecnologie innovative come <strong>Touchdesigner</strong> ed utilizzare <strong>Python</strong> per lo scripting e <strong>GLSL</strong> per la scrittura di shader grafici.",
+        "intr4": "Qui sotto è possibile visionare la registrazione della premiere avvenuta a Biennale Musica 2020",
+        "point1": "Ho usato <strong>Touchdesigner</strong> e <strong>Python</strong> per sviluppare l'applicazione principale, in grado di gestire I/O (più di 80 canali Open Sound Control e numerosi canali audio), data flow, analisi in tempo reale dei segnali audio di sassofono ed elettronica, business logic, generazione video 3D e rendering pipeline",
+        "point2": "Ho scritto diversi <strong>vertex e pixel shaders in GLSL</strong> al fine di renderizzare geometrie 3D che possono essere deformate in tempo reale a seconda di parametri esterni",
+        "point3": "Ho utilizzato il <strong>Wolfram Language</strong> per estrarre vari descrittori audio dai file usati nella composizione",
+        "point4": "Ho lavorato e comunicato efficaciemente all'interno di un team internazionale che includeva un compositore, un sassofonista, numerosi tecnici audio, video e luci ed infine i tutor messi a disposizione dalla Biennale (Andrew Quinn, Thierry Coduys, Simone Conforti, Maurilio Cacciatore)",
+        "point5": "L'ambito tecnico del progetto è ampio e risulta complesso risassumerlo ulteriormente, ma sarei più che felice di approfondire questa fantastica esperienza durante un colloquio!"
     }
 }

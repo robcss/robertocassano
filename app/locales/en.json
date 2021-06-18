@@ -78,5 +78,16 @@
         "point13": "Implemented <strong>AJAX operations</strong> to dynamically change page content when posting or deleting verifications, comments and reports",
         "point14": "Used <strong>Mapbox GL JS</strong> to display registered fountains on a cluster map",
         "point15": "Used <strong>Glide.js</strong> to implement a simple image carousel"
+    },
+    "habitat": {
+        "intr1": "Habitat is an audiovisual composition produced by the Biennale di Venezia and realized for the Biennale Musica 2020 festival.",
+        "intr2": "I worked for 6 months at CIMM (Centro di Informatica Musicale Multimediale) studios as a software developer and videoartist in team with a composer and a saxophonist.",
+        "intr3": "I developed a system to generate real time 3D video based on live audio input, working with cutting-edge technology such as <strong>Touchdesigner</strong>, using <strong>Python</strong> for scripting and <strong>GLSL</strong> to write graphic shaders.",
+        "intr4": "Here you can find a recording of the piece's premiere at Biennale Musica 2020",
+        "point1": "Used <strong>Touchdesigner</strong> and <strong>Python</strong> to develop the main application, which handles I/O (more than 80 Open Sound Control channels and several audio channels), data flow, real time analysis of saxophone and electronic sound, business logic, video generation and the rendering pipeline",
+        "point2": "Wrote several <strong>vertex and pixel shaders with GLSL</strong> in order to render 3D geometries which can be deformed in real time according to external parameters",
+        "point3": "Used the <strong>Wolfram Language</strong> to extract audio descriptors from the audio files used in the composition",
+        "point4": "Worked and communicated effectively with an international team involving a composer, a saxophonist, several audio, video and light technicians and the Biennale mentors (Andrew Quinn, Thierry Coduys, Simone Conforti, Maurilio Cacciatore)",
+        "point5": "The technical scope of the project is so big it's difficult to further sum it up, but I'm more than happy to go into more detail about this wonderful experience during job interviews!"
     }
 }
